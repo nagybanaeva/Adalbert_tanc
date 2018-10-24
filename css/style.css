@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  background: #cfcfe1;
+  text-align: center;
+}
+
+h1{
+  width: 30rem;
+  margin: 1rem auto;
+  text-align: center;
+  background: grey;
+  color: darkblue; 
+  border: 1px solid darkblue;
+}
+
+blockquote { 
+  width: 30rem;
+  margin: 1rem auto;
+  background: grey; 
+  color: darkblue; 
+  border: 5px double darkblue; 
+}
+
+img{
+  width: 30rem;
+}
+
+p{
+  width: 30rem;
+  margin: auto;
+  padding: 2rem 0;
+  text-align: justify;
+}
+
+table, th, td {
+      border: 1px solid black;
+  margin: auto;
+}
+
+.lista{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+ul {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  align-self: flex-start;
+}
