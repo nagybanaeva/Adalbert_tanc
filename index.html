@@ -3,23 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Adalbert tánc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+     <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+	   <ul class="navbar-nav">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Főoldal</a>
+		  </li>
+		  <li class="nav-item">
+			 <a class="nav-link" href="kurzusok.html">Kurzusok</a>
+		  </li>
+		  <li class="nav-item">
+			 <a class="nav-link" href="galeria.html">Galéria</a>
+		  </li>
+		  <li class="nav-item">
+			 <a class="nav-link" href="elerhetosegek.html">Elérhetőségek</a>
+		  </li>
+	   </ul>
+    </nav>
     <h1>Kovács Adalbert, tánctanár</h1>
-    <img src="../img/adalbert.jpeg" alt="tánctanár" width="450">
+    <img class="adalbert" src="../img/adalbert.jpeg" alt="tánctanár">
     <p>
     </p>
     <blockquote>"A tánc a lábak költészete."
 (John Dryden)
     </blockquote>
-    <img src="../img/tanc.jpg" alt="táncoló pár" width="450">
+    <div class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-25" src="../img/tanc.jpg" alt="táncoló pár">
+            </div>
+            <div class="carousel-item">
+                <img class="w-25" src="../img/active-activity-ballerina-175658.jpg" alt="balerina">
+            </div>
+            <div class="carousel-item">
+                <img class="w-25" src="../img/active-dance-dancer-270789.jpg" alt="táncosok">
+            </div>
+            <div class="carousel-item">
+                <img class="w-25" src="../img/coach-dance-dancing-12312.jpg" alt="modern táncosok">
+            </div>
+        </div>
+    </div>
     <p>
       1985-ben születtem Szolnokon. Már kisgyerekkkoromban megismerkedtem a klasszikus táncok alapjaival, mivel édesanyám is táncoktató volt, édesapám pedig balett táncos. Ezért gyerekként sokat jártam velük táncelőadásokra, és táncórákra egyaránt. A gimnázium elvégzése után Budapesten a Táncművészeti Főiskolára jártam. A moderntánc és a modern társastánc szakokat végeztem el. A tánc és táncoktatás nem csupán a munkám, hanem a hivatásom, a szenvedélyem, az életem.
     </p>
     <h2>Órarend</h2>
-    <table>
-      <thead>
+    <table class="table table-striped table-bordered table-hover">
+      <thead class="thead-dark">
         <tr>
           <th>Időpont</th>
           <th>Hétfő</th>
@@ -80,7 +115,14 @@
       <br>
       tel.: +36 20 000 0000
     </address>
+    <a href="mailto:info@adalbert.com">info@adalbert.com</a>
     <br>
-    <img src="../img/terkep.png" alt="térkép" width="450">
+    <img class="terkep" src="../img/terkep.png" alt="térkép">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>

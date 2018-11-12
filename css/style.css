@@ -25,8 +25,8 @@ blockquote {
   border: 5px double darkblue; 
 }
 
-img{
-  width: 30rem;
+.adalbert, .terkep{
+  width: 25%;
 }
 
 p{
